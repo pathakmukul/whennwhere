@@ -1,26 +1,28 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# whennwhere
+Helps you track the location of item you kept at and track the expiry of your household goods!
 
-## How to use this template
+App available on 
+Google PlayStore : https://play.google.com/store/apps/details?id=com.mukulpathak.wnw
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+Apple AppStore   : https://itunes.apple.com/us/app/when-n-where-stuff-tracker/id1288671603
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+Ever happened that you forget where you have kept an important document? or a tool which is rarely used but you need it right now? Unfortunately such situations consume a lot of time and you might end up raiding your whole house. 
+But, what if we have an app which keeps a track of all your important documents, their locations and not only that also monitors the expiry date of your grocery items and medicines? Sounds like "AN APP"!
+Presenting "When n' Where" a simple app which will make your life quite easy. "When n' Where" has two different features, The "When" feature keeps a track of the expiry date of groceries and medicines. You can manually fill the form and app will keep notifying you about it. 
+The second feature is the "Where" part, which will locate the position of an item you last kept at. Just Fill the form with items name, position, take a photo of that place and there you go! You have successfully saved a lot of your time by using "When n' Where" app instead of searching manually.
 
-### With the Ionic CLI:
+## Features :
+Keep a track of the expiry date of the food items which don't have proper packaging (grocery items)
+Keep a track of the location of your important documents.
+App is secured with pin to avoid unauthorized access.
+You can capture the location of the product by taking an image.
+Easy to use user interface, which even elders can use with ease.
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+## About Project
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
+The web app is build using ionic 2 framework.
 
-Then, to run it, cd into `myTabs` and run:
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+## NOTE
+The code is available to refer and review by fellow Git users. Created by Mukul Pathak and Yashwanth Korla.
+Property of http://www.mukulpathak.com/wnw 
