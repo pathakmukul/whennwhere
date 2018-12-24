@@ -1,0 +1,49 @@
+<!--
+  Generated template for the EtaddPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar  color="yell">
+    <ion-title>Add item</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+<h5 text-center>Add item here to track expiry date. Please fill in all the fields.</h5>
+
+<ion-list style="margin-top:5;">
+    <ion-item>
+        <ion-label inset>Name of the product</ion-label>
+        <ion-input type="text" [(ngModel)]="name" required></ion-input> 
+    </ion-item>
+
+    <ion-item>
+      <ion-label inset>Manufacturing Date</ion-label>
+          <ion-datetime placeholder="Enter Mfg Date"  [max]="today" type="date" [(ngModel)]="input_mfg">
+            </ion-datetime>
+    </ion-item>
+    
+    <ion-item>
+        <ion-label inset>Purchase Date</ion-label>
+        <ion-datetime placeholder="Enter Date of Purchase" [max]="today" type="date" [(ngModel)]="input_purch">
+          </ion-datetime>
+  </ion-item>
+  <ion-item>
+      <ion-label inset>Expiry Date</ion-label>      
+      <ion-datetime placeholder="Enter Expiry Date" max="2027-12-31" [(ngModel)]="input_exp">
+        </ion-datetime>
+</ion-item>
+<!-- <ion-item> -->
+  <br>
+  <br>
+<button ion-button block round color="yell" (click)="dataDb(name,input_mfg,input_purch,input_exp)">Save</button>
+<!-- </ion-item> -->
+</ion-list>
+
+</ion-content>

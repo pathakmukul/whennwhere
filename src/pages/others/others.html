@@ -1,0 +1,58 @@
+<ion-header>
+    
+      <ion-navbar color="yell">
+        <ion-title>{{title}}</ion-title>
+      </ion-navbar>
+    
+    </ion-header>
+    
+    
+    <ion-content padding>
+        <div *ngIf="howto">
+    
+          <p>When n Where app has two main features,</p>
+          <h5 style="font-weight: bold;color: #1abc9c"> The WHEN </h5>
+          <p style="font-weight: bold"> Used to track the expiry date of an item</p>
+         <p> <span style="font-weight: bold;color: #1abc9c"> Can be Used for : </span> Unpacked Grocery items, medicines, eatables, beverages etc. </p>
+        <p>  The first tab of is the The When part. To add an item press the <span style="color: #1abc9c"> "Add Item" </span> button and fill in the details.</p>
+        <p>  To view and track the expiry dates from the When tab click on <span style="color: #1abc9c"> "View Items" </span>. Voila! Here you can see all the details about your grocery items and medicines. </p>
+          
+        <h5 style="font-weight: bold;color: #1abc9c"> The WHERE </h5>
+        <p style="font-weight: bold"> Used to track the location kept at of an item</p>
+       <p> <span style="font-weight: bold;color: #1abc9c"> Can be Used for : </span> Important files, documents, passports, ID cards, personal bellongings, tools, house hold items etc.</p>
+      <p>  The second tab of is the The Where part. To add an item press the <span style="color: #1abc9c"> "Add Item" </span> button and fill in the details.</p>
+      <p>  To view the list later in future click on <span style="color: #1abc9c"> "View Items" </span> button on the same page. And now you can see the records of items in your list and can easily locate what is important to you! </p>
+        
+      <h5 style="font-weight: bold;color: #1abc9c">   CHEERS!  </h5>
+    <p style="color : #95a5a6">*In case user forgets pin, consider reinstalling the app.</p>
+        </div>
+    
+    <div *ngIf="about">
+        <h1 style="font-weight: bold"> Our Story</h1>
+        
+    <p style="text-align: justify; font-family :sans-serif; " > When n' Where app came into existance after we thought it's high time that people stop forgetting things. People often tend to forget when the grocery item kept in their kitchen is going to be stale or where they have kept their tool kit. The idea behind this app is pretty simple, just save a track about such items here and you are ready to not forget things, EVER!
+    </p>
+    <h1 style="font-weight: bold"> Developers</h1>
+    <p style="font-weight: bold;color: #1abc9c"> Yashwanth Korla <br> Balaji Nagaraj <br> Mukul Pathak. </p>
+    
+    <h1 style="font-weight: bold"> Contact</h1>
+    <h4 style="font-weight: bold;color: #1abc9c">Product Website </h4>
+    <a href="http://www.mukulpathak.com/wnw" style="font-weight: bold;color: #000000">MukulPathak.com</a>
+    <h4 style="font-weight: bold;color: #1abc9c">Developer Website </h4>
+    
+    <a href="http://www.techyknights.com" style="font-weight: bold;color: #000000">Yashwanth Korla's blog </a>
+    <h4 style="font-weight: bold;color: #1abc9c">Developer E-Mail </h4>
+    
+    <a href="mailto:mu@mukulpathak.com?Subject=Hello!" target="_top"  style="font-weight: bold;color: #000000">mu@mukulpathak.com</a>
+    
+    <h1 style="font-weight: bold"> Powered By</h1>
+    <ion-row>
+      <ion-col col-2></ion-col>
+      <ion-col col-8>
+    <img style="width: 100%; "
+    src="assets/muk.png">
+      </ion-col>
+      <ion-col col-2></ion-col>
+    </ion-row>
+    </div>
+    </ion-content>

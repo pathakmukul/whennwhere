@@ -1,0 +1,50 @@
+<!--
+  Generated template for the IladdPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar  color="yell">
+    <ion-title>Add Item</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<!-- input_name, input_owner, input_loc, input_date -->
+
+<ion-content padding>
+    <h5 text-center>Add item and its location here. And we will remember it for you!</h5>
+    
+      <ion-list style="margin-top:50px;">
+        <ion-item>
+            <ion-label inset >Item Name</ion-label>
+            <ion-input [(ngModel)]="input_name" type="text"></ion-input> 
+        </ion-item>
+    
+        <ion-item>
+            <ion-label inset >Item Owner</ion-label>
+            <ion-input [(ngModel)]="input_owner" type="text"></ion-input> 
+        </ion-item>
+        
+        <ion-item>
+            <ion-label inset >Location of Item</ion-label>
+            <ion-input type="text" [(ngModel)]="input_loc"></ion-input> 
+        </ion-item>
+        
+        <ion-item>
+          <ion-label inset>Item Kept on</ion-label>
+              <ion-datetime [max]="today" type="date" [(ngModel)]="input_date"></ion-datetime>
+        </ion-item>
+        
+      </ion-list>
+      <br>
+      <ion-buttons>
+      <button ion-button  outline block (click)="presentActionSheet()" color="yell">Take Image</button>
+      <div *ngIf="base64Image" id="confirm_message">
+        Image Uploaded Successfully
+      </div>
+    <button ion-button block color="yell" (click)="dataDb(input_name, input_owner, input_loc, input_date)">Save</button>
+      </ion-buttons>
+</ion-content>

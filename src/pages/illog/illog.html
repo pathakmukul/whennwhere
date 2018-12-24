@@ -1,0 +1,60 @@
+<!--
+  Generated template for the IllogPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar  color="yell">
+    <ion-title>The Where List</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <p text-center style="font-weight: bolder">* Please swipe left on an item for more options.</p>
+    <ion-list>
+        <ion-item-sliding *ngFor="let item of items" id="item">
+            
+            <ion-item >
+              <!-- <ion-avatar item-start>
+                <img src="assets/img/avatar-ts-woody.png"> vname, owner_name, location, date_kept
+              </ion-avatar> -->
+              <ion-row>
+                <ion-col>
+                    <h1 text-wrap class="sub_heading" style="font-weight: bold;font-weight: bold;">{{item.name}}</h1> 
+                    <p text-wrap class="sub_heading"><span style="font-weight: bold;color: #1abc9c">Item Owner : </span> {{item.owne}}</p>
+                    <p text-wrap class="sub_heading"><span style="font-weight: bold;color: #1abc9c">Location :</span> {{item.loc}}</p>
+                    <p  text-wrap class="sub_heading"><span style="font-weight: bold;color: #1abc9c">Expiry Date : </span><span id="expiry">{{item.datk}}</span></p>
+                </ion-col>
+                <!-- <ion-col text-center>
+                  <h2>Days to Expire</h2>
+                  <br>
+                  <span id="count">{{item.Count}}</span>
+                </ion-col> -->
+              </ion-row>
+              <img  src="{{item.image}}" alt="{{item.name}}"/>
+               <!-- <ion-icon name="remove-circle" item-right (click)="delete(item)"></ion-icon> -->
+            </ion-item>
+       
+            <ion-item-options>
+                <button ion-button color="primary" icon-start (click)="shareil(item)">
+                    <ion-icon name="share"></ion-icon>
+                    Share
+                  </button>
+              <button ion-button color="danger" icon-start (click)="delete(item)">
+                  <ion-icon name="remove-circle"></ion-icon>
+                  Delete
+                </button>
+      
+
+              </ion-item-options>
+            
+           
+          </ion-item-sliding>               
+          </ion-list>
+
+</ion-content>

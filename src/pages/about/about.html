@@ -1,0 +1,49 @@
+<ion-header>
+    
+      <ion-navbar color="yell">
+        <ion-title>Where n' When</ion-title>
+      </ion-navbar>
+    
+    </ion-header>
+
+<!-- style="background-color:#1abc9c" -->
+<ion-content padding>
+    <!-- <div style="text-align:center;padding:10px;">
+   <span (click)="back()" float-left style="font-size:20px;"><ion-icon name="md-arrow-back"></ion-icon></span>
+  <span style="font-size:20px;height:12vh;font-weight:bold;">Where n' When</span>
+</div>   -->
+  
+<ion-list >
+ 
+        <ion-item no-padding (click)="HowToAlert('howto')" id="ItemCol" text-wrap>
+            <ion-icon name="help-buoy" style="color: #1abc9c"></ion-icon><span style="font-size: 16px; margin-left:5px;">How to use? </span> 
+       <!-- <ion-icon name="bulb"></ion-icon> -->
+
+      
+  </ion-item>  
+
+   <ion-item no-padding (click)="aboutUs('about')" id="ItemCol" text-wrap>
+      <ion-icon name="contacts" style="color: #1abc9c"></ion-icon><span style="font-size: 16px; margin-left:5px;"> About Us </span>
+      
+  </ion-item>  
+
+   <ion-item no-padding  (click)="rateFive()" id="ItemCol" text-wrap>
+      <ion-icon name="star" style="color: #1abc9c"></ion-icon>
+      <span  style="font-size: 16px; margin-left:5px;">  Rate us 5 stars!</span> 
+      
+  </ion-item>  
+
+<!-- <ion-item no-padding (click)="getWords()" id="ItemCol" text-wrap>
+    <ion-icon name="bowtie" style="color: #1abc9c;"></ion-icon>
+     <span  style="font-size: 16px; margin-left:5px;"> Build your Vocabulary! </span>
+      
+  </ion-item>  -->
+
+  <ion-item no-padding (click)="shareWnw()" id="ItemCol" text-wrap>
+      <ion-icon name="share" style="color: #1abc9c;"></ion-icon>
+       <span  style="font-size: 16px; margin-left:5px;"> Share When n' Where </span>
+        
+    </ion-item> 
+
+</ion-list>
+</ion-content>

@@ -1,0 +1,12 @@
+page-tabs {
+    // .tabs-color{
+    //     background-color:red;
+    // }
+    .tabs-ios-yell .tab-button[aria-selected=true], .tabs-ios-yell .tab-button[aria-selected=true] .tab-button-icon{
+        color:#fff,
+        ;
+    }
+    .tabs-md-yell .tab-button[aria-selected=true], .tabs-md-yell .tab-button[aria-selected=true] .tab-button-icon{
+        color:#fff;
+    }
+}

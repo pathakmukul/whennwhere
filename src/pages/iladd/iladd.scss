@@ -1,0 +1,15 @@
+page-iladd {
+    .item{
+        border-bottom:1px solid gray;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+      ion-label{
+          width: 50%;
+      }
+      #confirm_message{
+          text-align:center;
+          padding:10px;
+          font-weight: bold;
+      }
+    }

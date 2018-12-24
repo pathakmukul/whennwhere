@@ -1,0 +1,67 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-camera-preview": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-apprate": {
+            "PACKAGE_NAME": "com.mukulpathak.wnw"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.mukulpathak.wnw"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.mukulpathak.wnw"
+        },
+        "cordova-plugin-pin-dialog": {
+            "PACKAGE_NAME": "com.mukulpathak.wnw"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.mukulpathak.wnw"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "io.ionic.starter"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.mukulpathak.wnw"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.mukulpathak.wnw"
+        },
+        "es6-promise-plugin": {
+            "PACKAGE_NAME": "com.mukulpathak.wnw"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.mukulpathak.wnw"
+        }
+    }
+}

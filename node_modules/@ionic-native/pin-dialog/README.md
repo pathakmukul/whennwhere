@@ -1,0 +1,23 @@
+<a style="float:right;font-size:12px;" href="http://github.com/ionic-team/ionic-native/edit/master/src/@ionic-native/plugins/pin-dialog/index.ts#L1">
+  Improve this doc
+</a>
+
+# Pin Dialog
+
+```
+$ ionic cordova plugin add cordova-plugin-pin-dialog
+$ npm install --save @ionic-native/pin-dialog
+```
+
+## [Usage Documentation](https://ionicframework.com/docs/native/pin-dialog/)
+
+Plugin Repo: [https://github.com/Paldom/PinDialog](https://github.com/Paldom/PinDialog)
+
+
+
+## Supported platforms
+- Android
+- iOS
+
+
+

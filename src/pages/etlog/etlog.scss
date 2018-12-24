@@ -1,0 +1,32 @@
+page-etlog {
+    #item{
+   
+        margin-bottom: 3px;
+        // color: white;
+     
+        font-size: 13px;
+    }
+    .sub_heading{
+        padding:2px;
+    }
+    .item{
+        border:1px solid #DFDFDF;
+        border-radius: 5px;
+    }   
+    #count{
+        font-size: 22px;
+        padding: 8px;
+        border-radius: 5px;
+        background-color: #1abc9c;
+        color:white;
+        font-weight: bold;
+    }
+    #expired{
+        font-size: 22px;
+        padding: 8px;
+        border-radius: 5px;
+        background-color: #E63434;
+        color:white;
+        font-weight: bold;
+    }
+}
